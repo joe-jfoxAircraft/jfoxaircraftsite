@@ -1,0 +1,10 @@
+.contact {
+    margin-left: 5%;
+    /*margin-right: 5%;*/
+    margin: auto;
+    word-wrap: break-word;
+}
+
+pre {
+    margin-left: 5%;
+}
