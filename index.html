@@ -10,9 +10,9 @@
     <link rel="shortcut icon" sizes="196x196" href="images/jfoxLogo.png" />
 
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    
-     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="viewport" content="initial-scale=1">
+    
 </head>
 
 <body>
@@ -37,12 +37,15 @@
           <a href="index.html"><img class="logo-image" src="images/jfoxLogo.png"></a>
       </span>
 
-      <ul class="nav">
-          <li><a class="header-tabs-font" href="Products.html">PRODUCTS</a></li>
-          <li><a class="header-tabs-font" href="Innovation.html">INNOVATION</a></li>
-          <li><a class="header-tabs-font" href="empty.html">PREVIOUS PROJECTS</a></li>
-          <li><a class="header-tabs-font" href="empty.html">FUTURE</a></li>
-      </ul>
+      <div class="nav topnav" id="mainNav">
+          <a class="header-tabs-font" href="empty.html">FUTURE</a>
+          <a class="header-tabs-font" href="empty.html">PREVIOUS PROJECTS</a>
+          <a class="header-tabs-font" href="Innovation.html">INNOVATION</a>
+          <a class="header-tabs-font" href="Products.html">PRODUCTS</a>
+          
+          <a href="javascript:void(0);" class="icon" onclick="popResponMenu()" style="font-size:20px;">&#9776;</a>
+      </div>
+      
     </div>
     <div class="push"></div>
 <!-- // ========^^^ Header Section ^^^======== // -->
@@ -98,16 +101,14 @@
     <article class="sub-news">
         <h2><a href="" title="">News 1</a></h2>
         <img src="images/JX-200e-RG_190127_0011.jpg" alt=" " />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam ut venenatis tellus in metus vulputate eu scelerisque. Sit amet porttitor eget dolor morbi. Sed viverra tellus in hac habitasse. Urna nec tincidunt praesent semper feugiat nibh sed. Nibh ipsum consequat nisl vel pretium lectus. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Elementum curabitur vitae nunc sed velit dignissim. Nibh praesent tristique magna sit amet purus gravida quis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi quis eleifend quam adipiscing vitae proin. Non enim praesent elementum facilisis leo vel. Nibh mauris cursus mattis molestie a iaculis at erau scelerisque. Lacus luctus accumsan tortor posuere ac. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Bibendum enim facilisis gravida neque.</p>
         
     </article>
     <br>
     <article class="sub-news">
         <h2><a href="" title="">News 2</a></h2>
         <img src="images/JX-200e-RG_190127_0012.jpg" alt="" />
-        <p>D
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam ut venenatis tellus in metus vulputate eu scelerisque. Sit amet porttitor eget dolor morbi. Sed viverra tellus in hac habitasse. Urna nec tincidunt praesent semper feugiat nibh sed. Nibh ipsum consequat nisl vel pretium lectus. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Elementum curabitur vitae nunc sed velit dignissim. Nibh praesent tristique magna sit amet purus gravida quis.</p>
+        <p>Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi quis eleifend quam adipiscing vitae proin. Non enim praesent elementum facilisis leo vel. Nibh mauris cursus mattis molestie a iaculit. Enim lobortis scelerisque fermentum dui faucibus. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Eget nulla facilisi eti</p>
     </article>
 </article>
     <br>
@@ -171,5 +172,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <script src="js/index.js"></script>
 <script src="js/slideshow.js">window.onload = showSlides</script>
-    
+
 </body>
