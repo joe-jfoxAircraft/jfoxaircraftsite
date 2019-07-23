@@ -1,3 +1,5 @@
+/* Top Bar */
+
 .push{margin-bottom: 30px}
 
 .top-container{background-color: #f1f1ff; padding: 10px; text-align: center; }
@@ -35,7 +37,7 @@
 
 .nav {
   list-style-type: none;
-  text-align: center;
+  text-align: right;
   margin: 0;
   /*padding: 0;*/
   display: inline;
@@ -59,6 +61,55 @@ iframe {
     padding: 3rem; 
 }
 
+/* Responsive Menu Bar */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* To hide all links. */
+@media screen and (max-width: 900px) {
+  .topnav a:not(.logo-image) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    }
+}
+
+/* For 'responsive class'. To display link herizontally */
+@media screen and (max-width: 900px) {
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    }
+    
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    }
+    
+  .topnav.responsive {
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: right;
+    }
+}
+
+
+/* Interactive butons */ 
 a:link {
   text-decoration: none;
 }
